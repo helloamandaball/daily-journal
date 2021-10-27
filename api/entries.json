@@ -1,0 +1,32 @@
+{
+    "entries": [
+        {   
+            "id": 1,
+            "date": "09/22/2021",
+            "concept": "CONDITIONALS & LOOPS",
+            "entry": "We went over the basics of what conditionals and loops looked like and did some practice code.",
+            "mood": "My Head Hurts"
+        },
+        {
+            "id": 2,
+            "date": "10/04/2021",
+            "concept": "FLEXBOX",
+            "entry": "Introduction to Flexbox, did practice problems and played Flexbox Froggy.",
+            "mood": "Overwhelmed"
+        },
+        {
+            "id": 3,
+            "date": "10/05/2021",
+            "concept": "HTML & CSS",
+            "entry": "Did a code-along and created our index page and CSS for the Martin's Aquarium project. Also hashed out the hello-world-coatimundi travel website (first group project).",
+            "mood": "Happy"
+        },
+        {
+            "id": 4,
+            "date": "10/13/2021",
+            "concept": "PRINTING TO THE DOM",
+            "entry": "Covered more about the DOM, adding to what we learning in Foundations Class.",
+            "mood": "OK"
+        }
+    ]
+}

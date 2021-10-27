@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
+
+/*Typography
+--------------------------------------------------------------*/
+body,
+input,
+select,
+textarea {
+	color: #404040;
+	font-family: "Comfortaa", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+body {
+	background-color: mintcream;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Patua One", serif;
+  letter-spacing: 2px;
+}
+
+footer {
+	padding: 2em;
+	text-align: center;
+}
+
+
+.noBorder {
+	border: none;
+}
+
+.borderBtm {
+	border-bottom: 1px dashed gray;}
+	
+	.mainContainer {
+		margin: 2em;
+	}
+	
+	.mainHeader {
+		margin-bottom: 2em;
+	}
+	
+	.dailyJournalTitle {
+		margin-bottom: 1em;
+	}
+	
+/* Journal Entry Form */
+.journalForm {
+	/* border: 1px solid yellowgreen; */
+	background-image: linear-gradient(to bottom right, olivedrab, mintcream);
+	width: 80vw;
+	padding: 1.5em 1.5em 2em 1.5em;
+}
+
+.journalFieldset {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+#journalDate, #journalMood {
+	width: 160px;
+}
+
+#journalConcept, #journalEntry {
+	width: 35vw;
+}
+
+.journalForm button {
+	font-family: "Comfortaa", Arial, sans-serif;
+	border: none;
+	background-color: rgb(67, 78, 75);
+	color: white;
+	padding: 3px 0px 2px;
+}
+
+.journalForm button:hover {
+	background-color: rgb(62, 134, 110);
+}
+
+.journalForm button{
+	width: 200px;
+	margin-top:1em;
+}
+
+/* Journal Past Entry */
+.journalPastEntries-container {
+	border: 1px solid mediumvioletred;
+	margin-top: 3em;
+	padding: 1.5em;
+}
+
+.journalPastEntry {
+	border: none;
+}
+
+.journalPastEntry p {
+	margin-bottom: 5px;
+}
+
+.journalPastList-container {
+	padding-bottom: 20px;
+}
+
+.journalPastList {
+	font-size: 14px;
+	line-height: 1;
+	padding-top: 20px;
+}
+
+.journalPastBtns button {
+	border: none;
+	background-color: rgb(62, 134, 110);
+	color: white;
+	font-size: 10px;
+	padding: 3px 8px 2px;
+	margin: 0px 7px 20px;
+}
+
+.journalPastBtns button:hover {
+	background-color: yellowgreen;
+}
+
+.journalPastBtns, .journalSubmitBtn {
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 10px;
+}
+
+
